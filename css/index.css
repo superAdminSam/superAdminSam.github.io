@@ -1,0 +1,522 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+    color: #333;
+	background-color: #f3f0eb!important;
+}
+/*头部样式*/
+.PageHeader{
+	height: 110px;
+	width: 100%;
+	/*background-color: red;*/
+}
+.pageCommon{
+	width: 1180px;
+	margin: auto;
+}
+.PageHeader_content{
+	height: 60px;
+
+}
+.logo{
+	float: left;
+    padding: 5px 0 0 10px;
+}
+.logp_image{
+	display: block;
+	width: 148px;
+    height: 50px;
+    background-image: url(../img/logo-s2.png);
+}
+.searchFrame_wrap{
+	/*border: 1px solid red;*/
+    width: 280px;
+    border-radius: 25px;
+    height: 40px;
+    background-color: white;
+}
+.searchFrame {
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    float: right;
+}
+.searchFrame_input {
+    padding: 10px;
+    margin-left: 20px;
+    border: 0px;
+    outline: 0;
+    font: 16px/19px "Microsoft YaHei","SimSun";
+}
+.search_btn{
+background: url(../img/tips_tz.png) -191px -64px no-repeat;
+    background-color: #ffdc35;
+    width: 50px;
+    height: 39px;
+    border: 0px;
+    float: right;
+    cursor: pointer;
+    border-radius: 0px 25px 25px 0px;
+}
+.PageHeader_submenu > .submenu{
+	overflow: hidden;
+}
+.submenu  li{
+    float: left;
+    margin-right: 12px;
+    margin-top: 9px;
+    display: inline;
+}
+.submenu  li a{
+    text-decoration: auto;
+    font-size: 18px;
+    color: #332b29;
+    display: inline-block;
+    border-radius: 2px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0 12px
+}
+.Wrapper_backgroundImage{
+	     width: 100%;
+    display: block;
+    height: 1400px;
+    position: absolute;
+    left: 0;
+    top: 110px;
+}
+.PageContent_Wrapper .Wrapper_content{
+	    padding-top: 20px;
+    width: 1180px;
+    margin: auto;
+    height: 860px;
+    background-color: white;
+}
+.content_RecommendedGames > .RecommendedGames_leftOptions{
+
+    width: 120px;
+    height: 120px;
+}
+.content_RecommendedGames > .RecommendedGames_GamesContent{
+    height: 120px;
+    width: 1010px;
+    position: relative;
+    top: -120px;
+    left: 130px;
+}
+.RecommendedGames_leftOptions li {
+    height: 40px;
+    padding: auto;
+    padding-left: 30px;
+    line-height: 45px;
+    font-size: 16px;
+    background: #f5f5f5;
+    border-top: 1px solid #e8e7ed;
+}
+.RecommendedGames_leftOptions .yes {
+    background-color: #ff7800;
+    color: #fff;
+}
+.RecommendedGames_leftOptions .yes b {
+	display: block;	
+}
+.RecommendedGames_leftOptions li b {
+    border: 5px solid;
+    border-color: #fff #fff #fff #ff7800;
+    position: absolute;
+        left: 300px;
+    top: 38px;
+    display: none;
+}
+.game_com_list ul{
+	list-style-type: none;
+}
+.game_com_list ul li a{
+	    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 118px;
+    height: 40px;
+    align-items: flex-start;
+    font-size: large;
+    line-height: 70px;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.game_com_list .on{
+	width: 108.5px;;
+	height: 120px;
+	display: inline-block;
+}
+.game_app_img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+/*左幻灯片*/
+#slider-1{text-align:center}
+			#slider-1 .bd,#slider-1 .bd li,#slider-1 .bd img{width:387.22px; height:480px}
+			#slider-1 .hd{ margin-top:2px;height:58px;width:762px}
+			#slider-1 .hd li{ position:relative; display:inline-block; float:left; margin-right:21px;cursor:pointer;width:55px; height:77px}
+			#slider-1 .hd li img{ display:block;width:55px; height:77px}
+			#slider-1 .hd li i{ position:absolute; display:block; z-index:9; left:0; top:0; right:0; bottom:0; background-color:rgba(0,0,0,0.6)}
+			#slider-1 .hd li.active i{ width:11px; height:6px; background:url(images/iconpic-arrow-up.png) no-repeat 0 0; top:-6px; left:50%; margin-left:-5px; bottom:auto; right:auto}
+			.slider .hd {
+			    position: absolute;
+			    z-index: 3;
+			    left: 0;
+			    right: 0;
+			    bottom: 10px;
+			    padding: 0 12px!important;
+			    text-align: center;
+			        /*top: 380px!important;*/
+			}
+			
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: url(../img/下载2.svg);
+    right: 950px;
+    left: auto;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: url(../img/下载.svg);
+    left: 200px;
+    right: auto;
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    -moz-background-size: 27px 44px;
+    -webkit-background-size: 27px 44px;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*.Activity_box{
+	margin: 18px 0;
+}
+.Activity_box img{
+	height: 80px;
+	width: 350px;
+}
+.Activity_box  .Box_title{
+	display: block;
+    height: 76px;
+    width: 18px;
+    line-height: 19px;
+    float: left;
+    padding: 2px 5px;
+    background: #ff7800;
+    color: #FFF;
+    z-index: 10;
+    position: relative;
+    font-size: 18px;
+}
+.Activity_box  .Box_tit{
+	font-size: 16px;
+}
+.Activity_box div{
+	padding-top: 10px;
+    padding-left: 85px;
+}*/
+.active_box {
+    width: 350px;
+    padding-top: 5px;
+}
+.active_box li {
+    height: 80px;
+    width: 350px;
+    margin-top: 12px;
+    position: relative;
+}
+.active_box li span.lf {
+    display: block;
+    height: 76px;
+    width: 18px;
+    line-height: 19px;
+    float: left;
+    padding: 2px 5px;
+    background: #ff7800;
+    color: #FFF;
+    z-index: 10;
+    position: relative;
+}
+.active_box .act_tit {
+    height: 80px;
+    background: #eee;
+    /*margin-left: 65px;*/
+}
+.active_box .act_tit a {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 56px;
+    padding: 14px 15px 10px 38px;
+    z-index: 10;
+}
+.active_box .act_tit p {
+    font-size: 18px;
+}
+.active_box .act_tit span {
+    font-size: 18px;
+}
+.active_box img {
+    display: block;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    margin-left: 35px;
+    left: 0px;
+}
+.active_box .act_img {
+    width: 350px;
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+    background-color: #fff;
+    background: linear-gradient(to right,rgba(255,255,255,.95) 70%,rgba(255,255,255,.1) 80%);
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.Top_news > h3 > a{
+	color: red;
+}
+.Top_news h3{
+	text-align: center;
+	font-weight: bold;
+}
+.Top_news > ul > li > a{
+	color: #a6a6a6;
+	font-size: 16px;
+}
+.Top_news {
+	padding: 8px 0 14px;
+    border-bottom: 1px dotted #dcdcdc;
+}
+.Top_news ul{
+	text-align: center;
+}
+.Top_news li{
+	display: inline;
+    margin: 12px;
+}
+.Top_news > h3 > a,.Top_news > ul > li > a{
+	text-decoration: none;
+}
+.Notice ul{
+	margin-top: 12px;
+}
+.Notice li {
+    margin-bottom: 12px;
+}
+.Notice .n_show .big{
+	display: block;
+}
+.Notice .big{
+	line-height: 36px;
+    height: 197px;
+	display: none;
+}
+.Notice li .smal {
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    background: url(../img/arrow.gif) no-repeat left center;
+    padding-left: 12px;
+}
+.Notice .n_show .smal {
+    display: none;
+}
+.Notice a{
+	text-decoration: none;
+	font-size: 18px;
+}
+.Notice a:hover{
+	color: #ff4939;
+	
+}
+/*轮播图开始*/
+.slider{position:relative;text-align:center; margin:0 auto;z-index:1}
+.slider .bd,.slider .bd li,.slider .bd img{width:320px; height:213px}/*请给每个幻灯片套个div并设置id，通过id重置这个地方的宽度，达到自定义效果*/
+.slider .bd{z-index:2;overflow:hidden}
+.slider .bd li{float:left;width: 100%;overflow:hidden; background-position:center; background-repeat:no-repeat}
+.slider .bd li a{ display:block; width: 100%; height: 100%}
+.slider .bd li img{display:block;width:320px; height:213px}
+.slider .hd{ position: absolute; z-index: 3; left: 0; right: 0; bottom:10px; padding: 0 10px; text-align: center}
+.slider .hd li{display:inline-block;text-align:center;margin-right:10px;cursor:pointer;background-color:#C2C2C2}
+.slider .hd li.active{background-color:#222}
+  /*圆点*/
+  .dots li{width:10px; height:10px;font-size:0px;line-height:0px;border-radius:50%}
+  /*数字*/
+  .numbox li{width:20px; height:20px; line-height:20px; font-size:13px;font-family:Arial;font-weight:bold; text-indent:inherit}
+  .numbox li.active{color:#fff}
+  /*长方条*/
+  .rectangle li{width:40px; height:10px;font-size:0px;line-height:0px}
+  /*#slider-3{ width: 320px; height: 213px; overflow: hidden}/*这个是demo页面定义尺寸的样式，请根据自己幻灯片的尺寸重新定义。切莫生搬硬套。*/*/
+/*轮播图结束*/
+/*.Getgift_topTit h3{
+	    font-weight: bold;
+    color: darkorange;
+    display: inline;
+}
+.Getgift_topTit a{
+	float: right;
+}*/
+.Getgift_list > ul > li > .big > img{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.Getgift_list .show_l .big{
+	display: block;
+	    margin-top: 12px;
+}
+.Getgift_list .show_l .smal{
+	display: none;
+}
+.Getgift_list li .big{
+	display: none;
+}
+.Getgift_list li .smal{
+	display: block;
+}
+.Getgift_topTit{
+	padding: 20px 0;
+}
+.txt_b a,.smal a{
+	text-decoration: none;
+	font-size: 16px;
+}
+.Getgift_list .smal a{
+	margin-top: 2px;
+}
+.Getgift_list .smal{
+	margin: 15px 0;
+}
+.Getgift_list li{
+	border-top: 1px dotted #dcdcdc;
+    overflow: hidden;
+}
+.gBtn{
+	float: right;
+    width: 52px;
+    height: 23px;
+    background-color: #0fca93;
+    color: #fff;
+    border-color: #0fca93;
+    display: block;
+    width: 50px;
+    height: 21px;
+    border: 1px solid #0fca93;
+    text-align: center;
+    line-height: 21px;
+    font-size: 14px;
+    border-radius: 3px;
+    color: white;
+}
+.top_t{
+	overflow: hidden;
+	width: 350px;
+    display: inline-block;
+    height: 50px;
+}
+.top_t h3{
+	padding-bottom: 20px;
+    font-weight: bold;
+    float: left;
+}
+.top_t > h3 > a{
+	color: red;
+	text-decoration: none;
+}
+.top_t > .load_m{
+	float: right;
+	line-height: 70px;
+}
+.top_t > .load_m > a{
+	font-size: 14px;
+	text-decoration: none;
+}
+.GamesRecommend_l li {
+    float: left;
+    position: relative;
+    display: inline;
+    width: 70px;
+    height: 92px;
+    margin: 11px 23px 0 0;
+    overflow: hidden;
+}
+.GamesRecommend_l li:nth-child(4n) {
+    margin-right: 0px;
+}
+.img_txt{
+	text-align: center;
+}
+.img_txt a{
+	text-decoration: none;
+	font-size: 15px;
+}
+.Strategy_txt > span > a{
+	text-decoration: none;
+}
+.Strategy_txt > span > a:hover{
+	color: #333;
+}
+.Strategy_l > ul > li > a{
+	float: left;
+}
+.Strategy_l > ul > li{
+	height: 105px;
+}
+.Strategy_txt span:first-child{
+	font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #333;
+    line-height: 24px;
+    display: block;
+}
+.Strategy_txt span:last-child{
+	font-size: 13px;
+    width: 268px;
+    color: #a6a6a6;
+}
+
+.Strategy_txt > span:last-child > a{
+	color: #a6a6a6;
+	
+}
+.Strategy_txt{
+	padding-left: 84px;
+}
+.Page_footer {
+    position: relative;
+    top: 310px;
+    width: 100%;
+    min-width: 1180px;
+    height: 250px;
+    background: #28282A;
+}
+.Page_footer h3{
+	color: #555;
+    font-weight: bold;
+    text-align: center;
+    line-height: inherit;
+}
