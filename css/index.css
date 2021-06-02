@@ -126,8 +126,8 @@ background: url(../img/tips_tz.png) -191px -64px no-repeat;
     border: 5px solid;
     border-color: #fff #fff #fff #ff7800;
     position: absolute;
-        left: 300px;
-    top: 38px;
+        left: 225px;
+    top: 36px;
     display: none;
 }
 .game_com_list ul{
