@@ -184,11 +184,11 @@ background: url(../img/tips_tz.png) -191px -64px no-repeat;
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
     background-image: url(../img/下载2.svg);
     right: 950px;
-    left: auto;
+    left: 120px;
 }
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
     background-image: url(../img/下载.svg);
-    left: 200px;
+    left: 450px;
     right: auto;
 }
 .swiper-button-next, .swiper-button-prev {
