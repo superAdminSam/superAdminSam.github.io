@@ -25,6 +25,13 @@
 					$(".Getgift_list li").removeClass("show_l");
 					$(this).parent().addClass("show_l");
 				});
+
+				$(".RecommendedGames_leftOptions > ul > li").hover(function(){
+					$(".RecommendedGames_leftOptions > ul > li").removeClass("yes");
+					$(".RecommendedGames_leftOptions > ul > li > b").css("display","none")
+					$(this).addClass("yes");
+					$(".yes").children("b").css("display","block");
+				})
 			});
 		</script>
 	<body>
