@@ -125,10 +125,9 @@ background: url(../img/tips_tz.png) -191px -64px no-repeat;
 .RecommendedGames_leftOptions li b {
     border: 5px solid;
     border-color: #fff #fff #fff #ff7800;
-    position: absolute;
-        left: 225px;
-    top: 36px;
-    display: none;
+    position: relative;
+    left: 90px;
+    top: -29px;
 }
 .game_com_list ul{
 	list-style-type: none;
