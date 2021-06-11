@@ -128,6 +128,7 @@ background: url(../img/tips_tz.png) -191px -64px no-repeat;
     position: relative;
     left: 90px;
     top: -29px;
+    display: none;
 }
 .game_com_list ul{
 	list-style-type: none;
